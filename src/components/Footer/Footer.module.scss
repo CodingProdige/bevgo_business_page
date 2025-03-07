@@ -1,0 +1,63 @@
+// styles/Footer.module.scss
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footerSection {
+  flex: 1;
+  min-width: 250px;
+  margin-bottom: 2rem;
+}
+
+.footerSection h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #cdb36c;
+}
+
+.footerSection ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footerSection ul li {
+  margin-bottom: 0.5rem;
+}
+
+.footerSection ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footerSection ul li a:hover {
+  color: #cdb36c;
+}
+
+.contactDetails {
+  list-style-type: none;
+  padding: 0;
+}
+
+.contactDetails li {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.bottomBar {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #444;
+  font-size: 0.9rem;
+}

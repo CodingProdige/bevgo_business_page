@@ -1,0 +1,21 @@
+// components/About.module.scss
+.about {
+  // background-color: var(--brand-light);
+  text-align: center;
+  background-image: url("/coca_cola_truck.jpeg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 1rem;
+  overflow: hidden;
+  height: 50vh;
+}
+
+.aboutContainer {
+  background-color: rgba(0, 0, 0, 0.415);
+  padding: 4rem 2rem;
+  color: white;
+  height: 100%;
+}
